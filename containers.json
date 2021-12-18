@@ -1,6 +1,6 @@
 {
     "proxy": {
-        "image": ":sample-service.nginx-container.25",
+        "image": ":sample-service.nginx-container.27",
         "ports": {
             "80": "HTTP"
         },
@@ -11,7 +11,7 @@
         }
     },
     "flask": {
-        "image": ":sample-service.flask-container.23",
+        "image": ":sample-service.flask-container.26",
         "command": ["gunicorn", "-w", "1", "-b", "0.0.0.0:8000", "wsgi:server"],
         "ports": {
             "8000": "HTTP"

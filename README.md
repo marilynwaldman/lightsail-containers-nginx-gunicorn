@@ -1,3 +1,13 @@
+# gunicorn adapted from:
+
+https://towardsdatascience.com/how-to-deploy-ml-models-using-flask-gunicorn-nginx-docker-9b32055b3d0
+
+and was deployed to ligntsail ec2 here:
+
+https://github.com/marilynwaldman/flask_gunicorn_nginx_docker/blob/main/flask_app/__init__.py
+
+
+
 # map implementation 
 This will run from ec2 as docker images have to be uploaded to lightsail to create a deployment.  This fails on macs with m1 processors.
 

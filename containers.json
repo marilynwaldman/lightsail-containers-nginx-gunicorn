@@ -1,6 +1,6 @@
 {
     "proxy": {
-        "image": ":sample-service.nginx-container.31ß",
+        "image": ":sample-service.nginx-container.31",
         "ports": {
             "80": "HTTP"
         },
